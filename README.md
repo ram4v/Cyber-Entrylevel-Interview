@@ -53,12 +53,6 @@ The TCP/IP model is the default method of data communication on the Internet. It
 
 TCP/IP divides communication tasks into layers that keep the process standardized, without hardware and software providers doing the management themselves. The data packets must pass through four layers before they are received by the destination device, then TCP/IP goes through the layers in reverse order to put the message back into its original format. (Fortinet)
 
-TCP/IP Model contains four layers. The layers are:
-
-Application Layer
-Transport Layer
-Internet Layer
-Network Access Layer
-enter image description here
+![image](https://github.com/user-attachments/assets/3a3b4cfe-8da5-45e0-a31f-4d4c5466399e)
 
 
