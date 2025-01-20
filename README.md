@@ -31,11 +31,34 @@ Cryptography is the practice of securing communication. Cryptography includes en
 Multi-factor authentication is a mechanism in which it requires users to provide more than one form of authentication factor, such as something they know, something they have, and something they are. Ex:  username/password + OTP   and username/password + Fingerprint biometric
 
  
-### Explain Vulnerability, Risk and Threat
+### Explain Vulnerability, Risk and Threat ? 
 
 Vulnerability: Weakness in an information system, system security procedures, internal controls, or implementation that could be exploited or triggered by a threat source. (src: NIST)
 
 Risk: The level of impact on agency operations (including mission functions, image, or reputation), agency assets, or individuals resulting from the operation of an information system given the potential impact of a threat and the likelihood of that threat occurring. (src: NIST)
 
 Threat: Any circumstance or event with the potential to adversely impact organizational operations, organizational assets, individuals, other organizations, or the Nation through a system via unauthorized access, destruction, disclosure, modification of information, and/or denial of service. (src: NIST)
+
+### What are HIDS and NIDS?
+HIDS: HIDS means Host Intrusion Detection System. HIDS is located on each host.
+
+NIDS: NIDS means Network Intrusion Detection System. NIDS is located in the network.
+
+### What is SIEM?
+Security Information and Event Management (SIEM), is a security solution that provides the real time logging of events in an environment. The actual purpose for event logging is to detect security threats.
+In general, SIEM products have a number of features. The ones that interest us most as SOC analysts are: they filter the data that they collect and create alerts for any suspicious events. 
+
+### What is TCP/IP Model? Explain the difference between OSI and TCP/IP model.
+The TCP/IP model is the default method of data communication on the Internet. It was developed by the United States Department of Defense to enable the accurate and correct transmission of data between devices.
+
+TCP/IP divides communication tasks into layers that keep the process standardized, without hardware and software providers doing the management themselves. The data packets must pass through four layers before they are received by the destination device, then TCP/IP goes through the layers in reverse order to put the message back into its original format. (Fortinet)
+
+TCP/IP Model contains four layers. The layers are:
+
+Application Layer
+Transport Layer
+Internet Layer
+Network Access Layer
+enter image description here
+
 
