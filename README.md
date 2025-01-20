@@ -81,3 +81,17 @@ The seven steps of the Cyber Kill Chain® enhance visibility into an attack and 
 ![image](https://github.com/user-attachments/assets/afd9b56c-b26c-449c-9494-591890479394)
 
 
+### What is Zero Trust security ?
+The Zero Trust security model is a cybersecurity framework that operates on the principle of "never trust, always verify." It assumes that threats can come from both outside and inside the network and thus requires strict identity verification for every person and device trying to access resources on the network, regardless of whether they are within or outside the network perimeter.
+
+### What is SQL Injection?
+SQL Injections are critical attack methods where a web application directly includes unsanitized data provided by the user in SQL queries. (LetsDefend)
+
+### Explain SQL Injection Types
+There are 3 types of SQL Injections. These are:
+
+In-Band SQLi (Classical SQLi): If a SQL query is sent and a replied to over the same channel, we call these In-band SQLi. It is easier for attackers to exploit these compared to other SQLi categories.
+
+Inferential SQLi (Blind SQLi): SQL queries that receive a reply that cannot be seen are called Inferential SQLi. They are called Blind SQLi because the reply cannot be seen.
+
+Out-of-Band SQLi: If the reply to a SQL query is communicated over a different channel then this type of SQLi is called Out-of-Band SQLi. For example, if the attacker is receiving replies to his SQL queries over the DNS this is called an Out-of-Band SQLi.
