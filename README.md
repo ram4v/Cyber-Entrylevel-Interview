@@ -31,5 +31,11 @@ Cryptography is the practice of securing communication. Cryptography includes en
 Multi-factor authentication is a mechanism in which it requires users to provide more than one form of authentication factor, such as something they know, something they have, and something they are. Ex:  username/password + OTP   and username/password + Fingerprint biometric
 
  
+### Explain Vulnerability, Risk and Threat
 
+Vulnerability: Weakness in an information system, system security procedures, internal controls, or implementation that could be exploited or triggered by a threat source. (src: NIST)
+
+Risk: The level of impact on agency operations (including mission functions, image, or reputation), agency assets, or individuals resulting from the operation of an information system given the potential impact of a threat and the likelihood of that threat occurring. (src: NIST)
+
+Threat: Any circumstance or event with the potential to adversely impact organizational operations, organizational assets, individuals, other organizations, or the Nation through a system via unauthorized access, destruction, disclosure, modification of information, and/or denial of service. (src: NIST)
 
