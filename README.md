@@ -1,5 +1,14 @@
 # Cybersecurity Entry level Interview Questions #
 
+### What is CIA triad?
+The three letters in "CIA triad" stand for Confidentiality, Integrity, and Availability. The CIA triad is a common model that forms the basis for the development of security systems. They are used for finding vulnerabilities and methods for creating solutions. (Fortinet)
+
+Confidentiality: Confidentiality involves the efforts of an organization to make sure data is kept secret or private. A key component of maintaining confidentiality is making sure that people without proper authorization are prevented from accessing assets important to your business.
+
+Integrity: Integrity involves making sure your data is trustworthy and free from tampering. The integrity of your data is maintained only if the data is authentic, accurate, and reliable.
+
+Availability: Systems, networks, and applications must be functioning as they should and when they should. Also, individuals with access to specific information must be able to consume it when they need to, and getting to the data should not take an inordinate amount of time.
+
 ### What is phishing?  ###
 
 Phishing is a type of cyber attack where attackers pose as legitimate entities to trick users into providing sensitive information, such as passwords, credit card numbers. Phishing attacks are usually carried out via email, instant messaging...Etc.
@@ -54,5 +63,15 @@ The TCP/IP model is the default method of data communication on the Internet. It
 TCP/IP divides communication tasks into layers that keep the process standardized, without hardware and software providers doing the management themselves. The data packets must pass through four layers before they are received by the destination device, then TCP/IP goes through the layers in reverse order to put the message back into its original format. (Fortinet)
 
 ![image](https://github.com/user-attachments/assets/3a3b4cfe-8da5-45e0-a31f-4d4c5466399e)
+
+### What is DHCP?
+The Dynamic Host Configuration Protocol (DHCP) is a network management protocol used on Internet Protocol (IP) networks for automatically assigning IP addresses and other communication parameters to devices connected to the network using a client–server architecture.
+
+### What is Salted Hashes
+A salt is added to the hashing process to force their uniqueness, increase their complexity without increasing user requirements, and to mitigate password attacks like hash tables.
+
+### What is Port Scanning?
+Port scanning is a method of determining which ports on a network are open and could be receiving or sending data. It is also a process for sending packets to specific ports on a host and analyzing responses to identify vulnerabilities.
+
 
 
