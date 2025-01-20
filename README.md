@@ -73,5 +73,11 @@ A salt is added to the hashing process to force their uniqueness, increase their
 ### What is Port Scanning?
 Port scanning is a method of determining which ports on a network are open and could be receiving or sending data. It is also a process for sending packets to specific ports on a host and analyzing responses to identify vulnerabilities.
 
+### What is Cyber Kill Chain?
+Developed by Lockheed Martin, the Cyber Kill Chain® framework is part of the Intelligence Driven Defense® model for identification and prevention of cyber intrusions activity. The model identifies what the adversaries must complete in order to achieve their objective.
+
+The seven steps of the Cyber Kill Chain® enhance visibility into an attack and enrich an analyst’s understanding of an adversary’s tactics, techniques and procedures. (Lockheed Martin)
+
+![image](https://github.com/user-attachments/assets/afd9b56c-b26c-449c-9494-591890479394)
 
 
