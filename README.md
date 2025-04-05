@@ -95,3 +95,15 @@ In-Band SQLi (Classical SQLi): If a SQL query is sent and a replied to over the 
 Inferential SQLi (Blind SQLi): SQL queries that receive a reply that cannot be seen are called Inferential SQLi. They are called Blind SQLi because the reply cannot be seen.
 
 Out-of-Band SQLi: If the reply to a SQL query is communicated over a different channel then this type of SQLi is called Out-of-Band SQLi. For example, if the attacker is receiving replies to his SQL queries over the DNS this is called an Out-of-Band SQLi.
+
+### What is a three-way handshake ? 
+
+The three-way handshake is a three-step process used in TCP/IP networking to establish a reliable connection between a client and a server before data transmission 
+Step 1: SYN (Synchronization) from Client to Server 
+The client sends a SYN (synchronization) packet to the server, initiating the connection request. 
+This packet includes the client's initial sequence number. 
+Step 2: SYN-ACK (Synchronization-Acknowledgement) from Server to Client 
+The server, upon receiving the SYN packet, responds with a SYN-ACK packet. 
+This packet acknowledges the client's SYN and includes the server's initial sequence number and the expected sequence number from the client (which is the client's SYN number + 1). 
+Step 3: ACK (Acknowledgement) from Client to Server 
+The client, upon receiving the SYN-ACK, sends an ACK packet back to the server. 
