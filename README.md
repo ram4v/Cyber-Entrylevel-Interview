@@ -99,11 +99,36 @@ Out-of-Band SQLi: If the reply to a SQL query is communicated over a different c
 ### What is a three-way handshake ? 
 
 The three-way handshake is a three-step process used in TCP/IP networking to establish a reliable connection between a client and a server before data transmission 
-Step 1: SYN (Synchronization) from Client to Server 
+# Step 1: SYN (Synchronization) from Client to Server 
 The client sends a SYN (synchronization) packet to the server, initiating the connection request. 
 This packet includes the client's initial sequence number. 
-Step 2: SYN-ACK (Synchronization-Acknowledgement) from Server to Client 
+# Step 2: SYN-ACK (Synchronization-Acknowledgement) from Server to Client 
 The server, upon receiving the SYN packet, responds with a SYN-ACK packet. 
 This packet acknowledges the client's SYN and includes the server's initial sequence number and the expected sequence number from the client (which is the client's SYN number + 1). 
-Step 3: ACK (Acknowledgement) from Client to Server 
+# Step 3: ACK (Acknowledgement) from Client to Server 
 The client, upon receiving the SYN-ACK, sends an ACK packet back to the server. 
+
+### What is DNS?
+DNS stands for Domain Name System, which is a system that translates domain names into IP addresses
+
+### Explain how JWT works ?
+JWT (short for JSON Web Token and pronounced “jot”) is an open standard used to create compact, self-contained tokens used for securely transmitting information between different applications or services.
+The three main components of a JWT are the:
+
+Header
+Payload
+Signature
+Refer# https://www.descope.com/learn/post/jwt 
+
+### Differentiate between TCP &amp; UDP?
+TCP (Transmission Control Protocol) is a connection-oriented, reliable protocol prioritizing data integrity and order, while UDP (User Datagram Protocol) is a connectionless, faster protocol prioritizing speed and efficiency, sacrificing reliability
+
+### What is risk management ?
+Risk management is the systematic process of identifying, assessing, and mitigating threats or uncertainties that can affect your organization.
+
+### What’s the difference between encoding, encryption, and hashing?
+Encoding converts data for representation or transmission, encryption secures data by making it unreadable without a key, and hashing generates a unique, fixed-length "fingerprint" of data for integrity checks, with hashing being a one-way process. 
+
+### Can you describe rainbow tables? 
+A rainbow table is a password hacking tool that uses a precomputed table of reversed password hashes to crack passwords in a database.
+
